@@ -116,8 +116,8 @@ Now, let's test out the backend we generated locally.
 First, we'll create a React app:
 
 ```sh
-npx create-react-app renderatl-workshop
-cd renderatl-workshop
+npx create-react-app react-brussels-workshop
+cd react-brussels-workshop
 ```
 
 Then, install the Amplify CLI:
