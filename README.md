@@ -56,6 +56,8 @@ Follow the instructions at aws.amazon.com to create an AWS account. Enter your i
 4. Then click on alarms. Click Create alarms. 
 5. Then, select metric, and choose a billing total estimated charge. Choose the amount that you want to set an alarm for, for example, mine is $10. So, if my AWS billing for the month goes over $10 I get an email. 
 
+Note! Make sure you're in `us-east-1`, that will be the only region you'll have all of these options in!
+
 ## Data Modeling
 
 Data modeling is when you work define the pieces of data that you need for your app as well as the relationships between data. You could model data to represent anything - for example a library may have rows, books, and librarians each with data associated with them. Rows would have books that belong to them, and librarians may have favorite books. 
@@ -101,7 +103,7 @@ Now, we’ll create a relationship between the TimelineItem and Content. Under t
 Now add relationships:
 
 - Add a 1:1 relationship to the Comment model to User
-- Add a 1:1 relationship between TimeLine model to User
+- Add a 1:1 relationship between TimeLineItem model to User
 - Add a 1:n relationship between TimelineItem to Comments
 
 <details>
